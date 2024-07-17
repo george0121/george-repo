@@ -1,0 +1,55 @@
+body {
+  background-color: #000;
+  margin: 0! important;
+  padding: 0px;
+}
+
+.header5 {
+  background-image: url("https://media.tenor.com/f0cKyHniahEAAAAd/background-khaoticfuture.gif");
+  background-size: 300px 300px;
+  height: 600px;
+  display: block;
+  padding-top: 50px;
+  line-height: 2px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.Header90 {
+  width: 10%;
+  animation:cubic-bezier(0.19, 1, 0.22, 1);
+  animation-duration: 8s;
+  align-items: center;
+  margin-left: 45%;
+  background-color: green;
+}
+
+.Header90:hover {
+  background-color: beige;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+.subhead1 {
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 33%;
+  line-height: 28px;
+  padding-left: 33%;
+}
+
+.header5 h1 {
+  font-size: 120px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+}

@@ -1,0 +1,622 @@
+
+body {
+  display: block;
+  margin: 0px!  important;
+}
+
+/* Responsive colums - one colums layout (vertical) on small screens */
+@media (min-width: 900px) and (max-width: 1440px) {
+    .navbar {
+      width: 90.4.5%;
+      display: block;
+      margin-bottom: 111px;
+      }
+    }
+
+body {
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #eff7e3;
+  font-family: montserrat;
+}
+
+.w3-round {
+  padding: -22px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: unset;
+}
+
+.w3-round:hover {
+  cursor: pointer;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 18px;
+  color: black;
+  text-align: left;
+  padding: 26px 19px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  background-color: #eff7e3;
+  font-family: montserrat;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 18px;
+  width: 130px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 26px 28px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin: 0px;
+  min-width: 128px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 4px 8px;
+  margin:  9px 3px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #C1D8E6;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/* Header CSS */
+.header {
+  padding: 45px 99px;
+  height: 437px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.219);
+  font-size: 30px;
+}
+
+.heading2 {
+  font: monserrat;
+  color: rgb(0, 0, 0);
+}
+
+.heading1 {
+  font-style: italic;
+  font: monserrat;
+  color: rgb(225, 248, 92);
+}
+
+/* Subheading CSS */
+.subheading {
+  font-family: monserrat;
+  box-align: left;
+  line-height: 1.5;
+  display: table;
+  padding-bottom: 25px;
+  margin-inline: 0px;
+  background: linear-gradient(180deg, rgba(0,13,36,0.8323704481792717) 0%, rgba(151,190,106,0) 0%, rgba(0,255,214,0.8911939775910365) 12333%);
+  color: rgb(231, 225, 225);
+  font-size: 30px;
+  width: 800px;
+}
+
+/***Navigation Button CSS****/
+.Header1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  margin-top: 7px;
+  width: 180px;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+/* Nav button transition on hover */
+.Header1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Header1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Header1:hover span {
+  padding-right: 18px;
+}
+
+.Header1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Header1:hover, .navbutton hover{
+  background-color: green;
+}
+
+
+/* Header Learn More button */
+.header2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.8s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.header2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.header2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.header2:hover span {
+  padding-right: 18px;
+  color: white;
+}
+
+.header2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.header2:hover, .navbutton hover{
+  background-color: black;
+}
+
+/* Second Section CSS*/
+.section2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: whitesmoke;
+  background-image: 33px;
+}
+
+
+.sectionheading {
+  font: Georgia;
+  font-size: 48px;
+  font-style: italic;
+  color: red;
+}
+
+.sectioncontent {
+  font: noto sans;
+  font-size: 23px;
+  width: 800px;
+  margin: 44px auto;
+}
+
+.sectionnext {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  width: 180px;
+  transition: all 0.8s;
+  cursor: pointer;
+  margin: 23px auto;
+}
+
+/* section button transition on hover */
+.sectionnext span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sectionnext span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sectionnext:hover span {
+  padding-right: 18px;
+}
+
+.sectionnext:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.sectionnext:hover, .navbutton hover{
+  background-color: green;
+}
+  
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #C9D0DA;
+  padding-top: 33px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*fourth our  process section*/
+.container3 {
+text-align: left;
+padding-top: 23px;
+padding-bottom: 23px;
+padding-left: 12px;
+background:#064780;
+color: #ffffff;
+}
+
+
+/*4th section*/
+.container-4 {
+  padding-top: 44px;
+  text-align: center;
+   padding-bottom: 44px;
+   background-color: #2b2a2a71;
+}
+
+.headingour{
+  color: white;
+  font-family: arial;
+  font-size: 33px;
+}
+
+.column3s {
+  float: left;
+  width: 33.33%;
+  font-family: arial;
+  font-size: 15px;
+  color: rgba(119, 236, 96, 0.815);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.para {
+  margin: 0 auto;
+  width: 53.33%;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: 600;
+   color: rgb(247, 235, 235);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+  }
+
+
+/* Footer Section CSS*/
+  .footer {
+    display: grid;
+    height: 280px;
+    padding-inline: 140px;
+    padding-top: 40px;
+    grid-template-columns: 4fr 2fr 2fr 3fr;
+    align-items: stretch;
+    background-color: #EFEFFF;
+  }
+
+  .column {
+    width: 33.33%;
+    font-family: arial;
+  }
+
+  /* Logo and Description - Footer */
+  .footercolumn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+
+  /* H3 on Footer */
+  .h3s {
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 1.5em;
+    white-space: nowrap;  
+    padding-left: 0px! important;
+}
+
+/* Links on Footer */
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px! important;
+  }
+
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+
+  ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  ul li a:hover {
+    color: #c7940a;
+  }
+
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+
+  /* Newsletter column CSS*/
+  input,
+  button {
+    font-size: 17px;
+    padding: 13px;
+    width: 170%;
+    border-radius: 6px;
+    margin-bottom: 7px;
+  }
+
+  button {
+    background-color: #84a383;
+    padding: 12px;
+    width: 206px;
+    color: #ffffff;
+  }
+
+  button:hover {
+    background-color: #068047;
+    cursor: progress;
+  }
+
+  /* Social Links and icons */
+  div.social {
+    display: flex;
+    justify-content: space-evenly;
+    inline-size: 170px;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .social i {
+    color: #537BAB;
+  }
+
+.social:hover {
+  cursor: pointer;
+}
+
+/*Footer Logo CSS*/
+.footlogo {
+    height: 60px;
+    width: 30%;
+    margin-top: 35px;
+    color: black;
+    display: unset;
+  }
+
+
+@media screen and (max-width: 1440px) {
+ .Hero {
+  width: 177%;
+ }
+}  
+
+/*12 pro device fixes*/
+@media screen and (max-width: 390px) {
+  .navbar {
+  overflow: hidden;
+  position: relative;
+  display: none;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 49px;
+}
+  
+  .header {
+    width: 0% !important;
+    height: 490%;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
+  
+  .subheading {
+   width: 300px;
+   padding-top: 0px !important;
+   margin-left: -59px;
+  }
+
+  .section2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectioncontent {
+    width: fit-content;
+    padding: 24px;
+
+  }
+
+  .footer{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    height: 100%;
+  }
+  link .footer {
+    width: 100% !important;
+    line-height: 1em;
+  }
+  
+  .footlogo {
+    width: fit-content;
+    margin-left: -52px !important;
+  }
+  .fa {
+    text-align: center;
+    margin-left: -82px;
+  }
+  .column {
+    margin-left: -112px;
+    width: 50%;
+  }
+}
+}

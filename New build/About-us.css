@@ -1,0 +1,163 @@
+
+    /* Header CSS */
+    .header {
+      padding: 45px 99px;
+      height: 435px;
+      text-align: left;
+      color: black;
+      font-size: 30px;
+    }
+    
+    .heading2 {
+      font: monserrat;
+      color: black;
+    }
+    
+    .heading1 {
+      font-style: italic;
+      font: monserrat;
+      color: rgb(167, 255, 167);
+    }
+    
+    /* Subheading CSS */
+    .subheading {
+      font-family: monserrat;
+      box-align: left;
+      line-height: 1.5;
+      display: table;
+      padding-bottom: 25px;
+      margin-inline: 0px;
+      background: linear-gradient(180deg, rgba(0,13,36,0.8323704481792717) 0%, rgba(151,190,106,0) 0%, rgba(0,255,214,0.8911939775910365) 12333%);
+      color: grey;
+      font-size: 30px;
+      width: 800px;
+    }
+    
+    /***Navigation Button CSS****/
+    .Header1 {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: black;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      padding: 15px;
+      width: 180px;
+      transition: all 0.8s;
+      cursor: pointer;
+    }
+    
+    /* Nav button transition on hover */
+    .Header1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .Header1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .Header1:hover span {
+      padding-right: 18px;
+    }
+    
+    .Header1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    .Header1:hover, .navbutton hover{
+      background-color: green;
+    }
+    
+    
+    /* Header Learn More button */
+    .header2 {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: whitesmoke;
+      border: none;
+      color: black;
+      text-align: center;
+      font-size: 22px;
+      padding: 15px;
+      width: 180px;
+      transition: all 0.8s;
+      cursor: pointer;
+      margin: 0px;
+    }
+    
+    .header2 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .header2 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .header2:hover span {
+      padding-right: 18px;
+      color: white;
+    }
+    
+    .header2:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    .header2:hover, .navbutton hover{
+      background-color: black;
+    }
+
+/* About Us section */
+.about {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: whitesmoke;
+}
+
+.aboutheading {
+  color: rgb(1, 130, 243);
+}
+
+.aboutpara {
+  width: 900px;
+  padding-left: 26%;
+  text-align: center;
+}
+
+/* Responsive*/
+@media (min-width: 900px) and (max-width: 1440px) {
+  .navbar {
+      width: 90.4 .5%;
+      display: block;
+      margin-bottom: 0px ! important;
+  }
+
+  .aboutpara {
+  padding-left: 18%;
+  }
+
+  .header {
+    min-height: fit-content;
+  }
+}
+
+
